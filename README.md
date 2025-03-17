@@ -8,10 +8,15 @@ O sistema permite a comunicação com um backend via **API Rest**, garantindo um
 ## 🚀 Funcionalidades
 
 ✔️ Interface moderna e responsiva com Angular Material
+
 ✔️ Cadastro e gerenciamento de clientes
+
 ✔️ Agendamento de horários
+
 ✔️ Controle de disponibilidade dos barbeiros
+
 ✔️ Edição e cancelamento de agendamentos
+
 ✔️ Consumo de API Rest para comunicação com backend
 
 ## 🏗️ Tecnologias Utilizadas
