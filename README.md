@@ -23,15 +23,4 @@ Durante o desenvolvimento deste projeto, vamos praticar e aprimorar as seguintes
 - Comunicação eficiente com o backend
 - **Componentização** para reutilização de código e organização
 
-## 🎯 Objetivos e Resultados Esperados
-Após a conclusão deste projeto, você será capaz de:
-
-✅ Criar um projeto **Angular** do zero
-
-✅ Consumir **API Rest** e integrar dados ao frontend
-
-✅ Aplicar conceitos de **componentização** para um código mais modular e reutilizável
-
-✅ Desenvolver um sistema de **agendamento funcional** para uma barbearia
-
 
