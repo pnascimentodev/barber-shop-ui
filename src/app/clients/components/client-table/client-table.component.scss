@@ -1,0 +1,121 @@
+.delete-button {
+    margin-right: 0.15rem;
+}
+
+.update-button {
+    margin-left: 0.15rem;
+}
+
+:host {
+  display: block;
+  margin: 2rem 0;
+}
+
+.mat-elevation-z8 {
+  background: var(--white);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05) !important;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  
+  th {
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-weight: 600;
+    padding: 1rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  td {
+    padding: 1rem;
+    font-size: 0.95rem;
+    color: var(--text-color);
+    border-bottom: 1px solid var(--light-gray);
+  }
+  
+  tr:hover {
+    background-color: rgba(44, 62, 80, 0.05);
+  }
+}
+
+.mat-mdc-row {
+  transition: all 0.3s ease;
+}
+
+.actions-cell {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+}
+
+button[mat-mini-fab] {
+  transform: scale(0.8);
+  transition: all 0.3s ease;
+  
+  &.delete-button {
+    background-color: var(--error-color);
+    color: var(--white);
+    
+    &:hover {
+      background-color: darken(#C0392B, 10%);
+      transform: scale(0.85);
+    }
+  }
+  
+  &.update-button {
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    
+    &:hover {
+      background-color: darken(#F1C40F, 10%);
+      transform: scale(0.85);
+    }
+  }
+}
+
+mat-paginator {
+  background: transparent;
+  border-top: 1px solid var(--light-gray);
+  
+  ::ng-deep {
+    .mat-mdc-paginator-container {
+      padding: 0.5rem 1rem;
+    }
+    
+    .mat-mdc-paginator-range-label,
+    .mat-mdc-paginator-page-size-label {
+      color: var(--dark-gray);
+    }
+    
+    .mat-mdc-paginator-navigation-button {
+      color: var(--primary-color);
+    }
+  }
+}
+
+// Responsividade
+@media (max-width: 768px) {
+  table {
+    th, td {
+      padding: 0.75rem;
+      font-size: 0.85rem;
+    }
+  }
+  
+  .actions-cell {
+    button[mat-mini-fab] {
+      transform: scale(0.7);
+      
+      &:hover {
+        transform: scale(0.75);
+      }
+    }
+  }
+}
