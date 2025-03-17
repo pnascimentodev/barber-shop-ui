@@ -1,26 +1,42 @@
-# 📌 Agendamento de Atendimento - Barbearia
+# 📌 Sistema de Agendamento para Barbearia
 
 ## 💻 Sobre o Projeto
-Este projeto consiste na criação de um sistema de agendamento para uma barbearia utilizando o framework Angular. Vamos explorar conceitos fundamentais do Angular e utilizar a biblioteca Angular Material para aprimorar a interface.
+Este projeto tem como objetivo desenvolver um **sistema de agendamento** para uma barbearia, permitindo que clientes agendem horários de atendimento de forma prática e organizada. O frontend foi desenvolvido com **Angular**, utilizando **Angular Material** para aprimorar a interface e experiência do usuário.
 
-## 📚 Pré-requisitos de Habilidades e Níveis de Conhecimento
-Antes de iniciar o projeto, é recomendável ter conhecimento prévio nas seguintes áreas:
+O sistema permite a comunicação com um backend via **API Rest**, garantindo um fluxo de informações seguro e eficiente.
 
-- **JavaScript** | Intermediário
-- **TypeScript** | Intermediário
-- **HTML** | Intermediário
-- **CSS** | Intermediário
-- **Docker** | Básico (opcional)
-- **Docker Compose** | Básico (opcional)
+## 🚀 Funcionalidades
 
-## 🛠️ Habilidades e Sub-habilidades Abordadas
-Durante o desenvolvimento deste projeto, vamos praticar e aprimorar as seguintes habilidades:
+✔️ Interface moderna e responsiva com Angular Material
+✔️ Cadastro e gerenciamento de clientes
+✔️ Agendamento de horários
+✔️ Controle de disponibilidade dos barbeiros
+✔️ Edição e cancelamento de agendamentos
+✔️ Consumo de API Rest para comunicação com backend
 
-### Frontend
-- Desenvolvimento de aplicações com **Angular**
-- Uso do **Angular Material** para estilização e usabilidade
-- Consumo de **API Rest**
-- Comunicação eficiente com o backend
-- **Componentização** para reutilização de código e organização
+## 🏗️ Tecnologias Utilizadas
+- **Angular**
+- **Angular Material**
+- **TypeScript**
+- **HTML e CSS**
+- **Docker** (Opcional, para ambiente de desenvolvimento)
 
+## 🔧 Como Executar o Projeto
+### 📌 Pré-requisitos
+Antes de rodar o projeto, certifique-se de ter instalado:
+- **Node.js 16+**
+- **Angular CLI**
+- **Docker** (opcional)
 
+### 📥 Clonando o Repositório
+```sh
+ git clone https://github.com/pnascimentodev/barber-shop-ui.git
+ cd barbearia-agendamento
+```
+
+### ▶️ Instalando Dependências e Executando o Projeto
+```sh
+npm install
+ng serve
+```
+A aplicação estará disponível em `http://localhost:4200`.
